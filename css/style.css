@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.body-one {
+  background-color: #73462C;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.logo {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  color: #F2A03D;
+  margin-right: auto;
+}
+
+.logo .kledrender {
+  flex-direction: row;
+  width: 40px;
+  width: 40px;
+}
+
+.txt-thebigkled {
+  font-weight: bolder;
+}
+
+
+.links {
+  display:flex;
+  gap: 20px;
+}
+
+.links a {
+  color: #F2A03D;
+  text-decoration: none;
+}
