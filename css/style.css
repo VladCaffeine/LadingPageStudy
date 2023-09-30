@@ -6,6 +6,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Primeira parte */
+
 .body-one {
   background-color: #73462C;
   height: 350px;
@@ -102,5 +104,67 @@ body {
   width: 300px;
   height: 200px;
   border-radius: 20px;
+}
+
+/* Segunda parte */
+
+.body-dois {
+  background-color: #481d0c;
+  height: 400px;
+}
+
+.otr-camp {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  color: #F2A03D;
+  padding: 20px
+}
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+.caixas {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.quadrado {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 180px;
+  border: 4px solid #F2A03D;
+  border-radius: 20px;
+}
+
+.titulo-quadrado {
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.img-ajustes {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: 60%;
+  border-radius: 20px;
+}
+
+.body-tres {
+  display: flex;
+  background-color: #73462C;
+  height: 40px;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
 }
 
