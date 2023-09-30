@@ -1,9 +1,14 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 .body-one {
   background-color: #73462C;
+  height: 350px;
 }
 
 .header {
@@ -18,6 +23,8 @@ body {
   display: flex;
   align-items: center;
   color: #F2A03D;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
   margin-right: auto;
 }
 
@@ -31,13 +38,69 @@ body {
   font-weight: bolder;
 }
 
-
 .links {
   display:flex;
   gap: 20px;
 }
 
 .links a {
+  font-weight: 900;
   color: #F2A03D;
   text-decoration: none;
 }
+
+.presentation {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.textohere {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 20px;
+  color: #F2A03D;
+}
+
+.shor-info {
+  font-weight: 300;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+.buttom {
+  margin-top: 5px;
+}
+
+.buttom button {
+  background-color: #222226;
+  border-color: #55181f;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.buttom a {
+  color: black;
+  text-decoration: none;
+  color: #F2A03D;
+  font-weight: 900;
+}
+
+.image01 {
+  display: flex;
+}
+
+.image01kled {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
